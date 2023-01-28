@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.account-data{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    padding: 100px;
+    border: 1px solid black;
+    background-color: #466C9D;
+    border-radius: 50%;
+}
+
+.recipients{
+    position: absolute;
+    display: flex;
+    right: 50px;
+    bottom: 50px;
+    padding: 100px;
+    background-color: #466C9D;
+    border: 1px solid black;
+    border-radius: 50%;
+    flex-direction: column;
+}
+
+.recipients__form{}
+.recipients__list{}
